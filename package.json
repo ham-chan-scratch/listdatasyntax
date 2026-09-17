@@ -1,0 +1,30 @@
+{
+  "name": "listdata-syntax",
+  "publisher": "ham-chan",
+  "displayName": "listdata syntax",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ham-chan-scratch/listdata-syntax.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "listdata",
+      "aliases": ["listdata", "listdata"],
+      "extensions": [".lsd"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "listdata",
+      "scopeName": "source.lsd",
+      "path": "./syntaxes/listdata.tmLanguage.json"
+    }]
+  }
+}
