@@ -1,0 +1,1 @@
+This is a syntax highlighting extension for chart data in **[avoiDANCE](https://scratch.mit.edu/projects/1364153778/)**, a game on Scratch.  The specification document (in Japanese) for the chart data is available at https://x.gd/avoiDANCE_doc.
